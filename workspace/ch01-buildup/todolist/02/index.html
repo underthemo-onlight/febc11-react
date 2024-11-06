@@ -71,68 +71,33 @@
       //itemList 배열의 각 Todo 아이템을 화면에 추가
       itemList.forEach((item, index) => {
         const liElem = getTodoItemElem(item);
-        // todolistElem.innerHTML += liElem; 오타 찾기 힘든 코드이다. 없더라도 undefined일 뿐이니까.
         todolistElem.appendChild(liElem);
       });
 
       // 한건의 Todo 객체를 받아서 DOM 객체로 만들어 반환
       function getTodoItemElem(item) {
-        // return (`
-        //   <li>
-        //     <span>1</span>
-        //     <span><s>샘플1</s></span>
-        //     <button type="button">삭제</button>
-        //   </li>
-        // `);
-
-        //<li>
         const liElem = document.createElement("li");
-        //<span>
         const noElem = document.createElement("span");
-        //<span>
         const titleElem = document.createElement("span");
-        //<button>
         const deleteElem = document.createElement("button");
 
-        // 1
         const noTxt = document.createTextNode(`${item.no}`);
-        // 샘플 1
         const titleTxt = document.createTextNode(`${item.title}`);
-        // 삭제
         const deleteTxt = document.createTextNode("삭제");
 
-        //<span>1</span>
         noElem.appendChild(noTxt);
-        //<span><s>샘플1</s></span>
         if (item.node) {
-          //완료
           const sElem = document.createElement("s");
           sElem.appendChild(titleElem);
           titleElem.appendChild(sElem);
         } else {
-          //미완료
           titleElem.appendChild(titleTxt);
         }
-        //<button type="button">
         deleteElem.setAttribute("type", "button");
-
-        //<button type="button">삭제</button>
         deleteElem.appendChild(deleteTxt);
 
-        // <li><span>1</span></li>
         liElem.append(noElem);
-
-        // <li>
-        //   <span>1</span>
-        //   <span><s>샘플1</s></span>
-        // </li>
         liElem.append(titleElem);
-
-        // <li>
-        //   <span>1</span>
-        //   <span><s>샘플1</s></span>
-        //   <button type="button">삭제</button>
-        // </li>
         liElem.append(deleteElem);
 
         return liElem;
