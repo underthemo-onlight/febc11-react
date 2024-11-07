@@ -15,35 +15,35 @@
       // module
       import MakeNode from "./MakeNode.js";
 
-      const h1 = Yong.createElement(
+      const h1 = MakeNode.createElement(
         "h1",
         null,
         "Counter - createElement() 라이브러리 사용"
       );
-      const p = Yong.createElement(
+      const p = MakeNode.createElement(
         "p",
         null,
         "파일 경로: ",
-        Yong.createElement("span", { id: "filepath" })
+        MakeNode.createElement("span", { id: "filepath" })
       );
-      const downBtn = Yong.createElement(
+      const downBtn = MakeNode.createElement(
         "button",
         { type: "button", onclick: "handleDown()" },
         "-"
       );
-      const resetBtn = Yong.createElement(
+      const resetBtn = MakeNode.createElement(
         "button",
         { type: "button", onclick: "handleReset(event)" },
         0
       );
-      const upBtn = Yong.createElement(
+      const upBtn = MakeNode.createElement(
         "button",
         { type: "button", onclick: "handleUp()" },
         "+"
       );
-      const span = Yong.createElement("span", null, 0);
-      const Header = Yong.createElement("header", null, h1, p);
-      const Counter = Yong.createElement(
+      const span = MakeNode.createElement("span", null, 0);
+      const Header = MakeNode.createElement("header", null, h1, p);
+      const Counter = MakeNode.createElement(
         "div",
         { id: "counter" },
         downBtn,
@@ -51,7 +51,7 @@
         upBtn,
         span
       );
-      const App = Yong.createElement("div", { id: "app" }, Header, Counter);
+      const App = MakeNode.createElement("div", { id: "app" }, Header, Counter);
 
       document.getElementById("root").appendChild(App);
     </script>
