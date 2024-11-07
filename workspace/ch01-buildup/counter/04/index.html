@@ -17,46 +17,47 @@
 
       // 애플리케이션의 시작점
       function App() {
-        return;
-      }
+        return MakeNode.createElement(
+          "div",
+          { id: "app" },
+          MakeNode.createElement(
+            "header",
+            null,
+            MakeNode.createElement(
+              "h1",
+              null,
+              "Counter - createElement() 라이브러리 사용"
+            ),
+            MakeNode.createElement(
+              "p",
+              null,
+              "파일 경로: ",
+              MakeNode.createElement("span", { id: "filepath" })
+            )
+          ),
+          MakeNode.createElement(
+            "div",
+            { id: "counter" },
 
-      const h1 = MakeNode.createElement(
-        "h1",
-        null,
-        "Counter - createElement() 라이브러리 사용"
-      );
-      const p = MakeNode.createElement(
-        "p",
-        null,
-        "파일 경로: ",
-        MakeNode.createElement("span", { id: "filepath" })
-      );
-      const downBtn = MakeNode.createElement(
-        "button",
-        { type: "button", onclick: "handleDown()" },
-        "-"
-      );
-      const resetBtn = MakeNode.createElement(
-        "button",
-        { type: "button", onclick: "handleReset(event)" },
-        0
-      );
-      const upBtn = MakeNode.createElement(
-        "button",
-        { type: "button", onclick: "handleUp()" },
-        "+"
-      );
-      const span = MakeNode.createElement("span", null, 0);
-      const Header = MakeNode.createElement("header", null, h1, p);
-      const Counter = MakeNode.createElement(
-        "div",
-        { id: "counter" },
-        downBtn,
-        resetBtn,
-        upBtn,
-        span
-      );
-      const App = MakeNode.createElement("div", { id: "app" }, Header, Counter);
+            MakeNode.createElement(
+              "button",
+              { type: "button", onclick: "handleDown()" },
+              "-"
+            ),
+            MakeNode.createElement(
+              "button",
+              { type: "button", onclick: "handleReset(event)" },
+              0
+            ),
+            MakeNode.createElement(
+              "button",
+              { type: "button", onclick: "handleUp()" },
+              "+"
+            ),
+            MakeNode.createElement("span", null, 0)
+          )
+        );
+      }
 
       MakeNode.createRoot(document.getElementById("root")).render(App);
     </script>
