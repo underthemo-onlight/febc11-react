@@ -32,7 +32,11 @@
               "p",
               null,
               "파일 경로: ",
-              MakeNode.createElement("span", { id: "filepath" })
+              MakeNode.createElement(
+                "span",
+                { id: "filepath" },
+                `ch${document.URL.split("/ch")[1]}index.html`
+              )
             )
           ),
           MakeNode.createElement(
@@ -60,12 +64,6 @@
       }
 
       MakeNode.createRoot(document.getElementById("root")).render(App);
-    </script>
-
-    <script type="module">
-      document.querySelector("#filepath").textContent = `ch${
-        document.URL.split("/ch")[1]
-      }index.html`;
     </script>
 
     <script type="text/javascript">
