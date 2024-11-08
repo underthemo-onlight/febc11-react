@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- 여기서부터 js 엔진으로 실행 -->
+    <script type="module">
+      // module은 defer 속성을 지정한 것처럼 지연 실행된다.
+      // HTML 파싱을 멈추지 않고, HTML 파싱이 끝난 이후에 실행됨
+      // module
+      import MakeNode from "./MakeNode.js";
+
+      function Header() {
+        return (
+          MakeNode.createElement("h1", null, "Counter - 컴포넌트로 분리"),
+          MakeNode.createElement(
+            "p",
+            null,
+            "파일 경로: ",
+            MakeNode.createElement(
+              "span",
+              { id: "filepath" },
+              `ch${document.URL.split("/ch")[1]}index.html`
+            )
+          )
+        );
+      }
+
+      function Counter() {
+        let count = 0;
+
+        const handleDown = () => {
+          // 데이터 갱신
+          count--;
+
+          //화면 갱신
+          const counterSpan = document.querySelector("#counter > span");
+          counterSpan.textContent = count;
+        };
+        const handleUp = () => {
+          count++;
+
+          //화면 갱신
+          const counterSpan = document.querySelector("#counter > span");
+          counterSpan.textContent = count;
+        };
+        const handleReset = (event) => {
+          count = 0;
+
+          //화면 갱신
+          const counterSpan = document.querySelector("#counter > span");
+          counterSpan.textContent = count;
+        };
+        return (
+          MakeNode.createElement("header", null),
+          MakeNode.createElement(
+            "div",
+            { id: "counter" },
+
+            MakeNode.createElement(
+              "button",
+              { type: "button", onclick: "handleDown()" },
+              "-"
+            ),
+            MakeNode.createElement(
+              "button",
+              { type: "button", onclick: "handleReset(event)" },
+              0
+            ),
+            MakeNode.createElement(
+              "button",
+              { type: "button", onclick: "handleUp()" },
+              "+"
+            ),
+            MakeNode.createElement("span", null, 0)
+          )
+        );
+      }
+
+      // 애플리케이션의 시작점
+      function App() {
+        return MakeNode.createElement(
+          "div",
+          { id: "app" },
+          Header(),
+          Counter()
+        );
+      }
+
+      MakeNode.createRoot(document.getElementById("root")).render(App);
+    </script>
+  </body>
+</html>
