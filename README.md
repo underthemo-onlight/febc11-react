@@ -18,16 +18,22 @@
 * <https://uzoolove.github.io/febc11-react/workspace-ins/ch04-class>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 5장 리액트 라우터
 * <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-router>
 =======
 ### 5장 고차 함수
 * <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-highorder>
 >>>>>>> ea8cc6f (ins 폴더 재생성)
+=======
+### 5장 고차 함수
+* <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-highorder>
+>>>>>>> 52c6f4e (📝)
 
 ### 6장 컨텍스트 API
 * <https://uzoolove.github.io/febc11-react/workspace-ins/ch06-contextapi>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### 7장 상태 관리 라이브러리
 * <https://uzoolove.github.io/febc11-react/workspace-ins/ch07-globalstate>
@@ -44,6 +50,8 @@
 ### 11장 프로젝트 준비
 * <https://uzoolove.github.io/febc11-react/workspace-ins/ch11-skeleton>
 =======
+=======
+>>>>>>> 52c6f4e (📝)
 ### 7장 리액트 라우터
 * <https://uzoolove.github.io/febc11-react/workspace-ins/ch07-router>
 
@@ -64,7 +72,10 @@
 
 ### 13장 프로젝트 준비
 * <https://uzoolove.github.io/febc11-react/workspace-ins/ch13-skeleton>
+<<<<<<< HEAD
 >>>>>>> ea8cc6f (ins 폴더 재생성)
+=======
+>>>>>>> 52c6f4e (📝)
 
 ### Todo List App
 * <https://uzoolove.github.io/febc11-react/workspace-ins/app/todolist>
