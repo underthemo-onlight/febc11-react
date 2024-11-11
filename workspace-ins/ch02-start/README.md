@@ -1,6 +1,7 @@
 # 2장 React 시작하기
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 소스 코드(GitHub): <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch02-start>
 * 코드 실행(GitHub Page): <https://uzoolove.github.io/febc11-react/workspace-ins/index.html#02>
 =======
@@ -11,11 +12,16 @@
 * 소스 코드(GitHub): <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch02-start>
 * 코드 실행(GitHub Page): <https://uzoolove.github.io/febc11-react/workspace-ins/index.html#02>
 >>>>>>> b3c7199 (📝)
+=======
+* 소스 코드(GitHub): <https://github.com/uzoolove/FES09-React/tree/main/workspace-ins/ch02-start>
+* 코드 실행(GitHub Page): <https://uzoolove.github.io/FES09-React/workspace-ins/index.html#02>
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 
 ## 2-1 리액트란?
 * 페이스북에서 만든 웹 UI를 작성하기 위한 자바스크립트 라이브러리
 
 ### React의 특징
+<<<<<<< HEAD
 <<<<<<< HEAD
 * SPA의 단점을 보완하는 다양한 기술 도입
 
@@ -43,6 +49,8 @@
 #### JSX (Javascript XML)
 * HTML 마크업과 비슷한 문법을 사용해서 UI를 정의하면 Babel, ESBuild 같은 변환 도구에 의해 자바스크립트 코드로 변환됨
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 * SPA의 단점을 보완하는 몇가지 기술을 도입
 * SPA의 단점
   - 모든 기능을 한 페이지에서 다 구현하다 보니 상태(데이터) 관리가 어려움
@@ -66,6 +74,9 @@
 
 #### JSX (Javascript XML)
 * HTML 마크업과 비슷한 문법을 사용해서 UI 정의하면 Babel 같은 변환 도구에 의해 자바스크립트 코드로 변환됨
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
   ```html
   <div class="todolist">
@@ -93,6 +104,7 @@
 
 #### 가상 DOM (Virtual DOM)
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 상태 변경 시 뷰를 렌더링할 때, 브라우저 DOM에 바로 적용하지 않고, 브라우저 DOM과 유사한 트리 구조의 가상 DOM(자바스크립트 객체)을 먼저 수정. 이후 수정 전후의 가상 DOM을 비교하여 바뀐 부분만 실제 브라우저 DOM에 반영
 
 * DOM API를 이용한 화면 갱신 방법
@@ -115,6 +127,8 @@
   - HMR(Hot Module Replacement): 개발 중 소스 코드를 수정하면 컴포넌트가 자동으로 리로딩되어 브라우저를 새로고침하지 않고도 바로 화면에 적용됨
   - 프로덕션 배포를 위한 번들링 기능 제공
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 * 상태가 변경되어서 뷰를 렌더링할때 브라우저 DOM에 바로 적용하지 않고 브라우저 DOM과 유사한 트리구조의 가상 DOM(자바스크립트 객체)을 먼저 수정한 후 수정전의 가상 DOM과 수정후의 가상 DOM을 비교해서 바뀐 부분만 브라우저 DOM에 실제 반영
 * DOM API를 이용한 화면 갱신 방법
   - 수정된 부분만 찾아서 갱신
@@ -135,6 +149,9 @@
   - 필요 라이브러리 설치
   - HMR(Hot Module Replacement): 개발시 소스 코드를 수정하면 컴포넌트를 자동으로 리로딩해서 브라우저의 새로고침 없이 곧바로 화면에 적용 가능
   - 프로덕션 배포에 필요한 번들링 기능 제공
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 
 #### create-react-app(CRA)
@@ -142,7 +159,11 @@
 * workspace/ch02-start 폴더로 이동 후 다음 명령 실행
   - Need to install the following packages 메세지가 나오면 y 입력후 엔터
 <<<<<<< HEAD
+<<<<<<< HEAD
   ```sh
+=======
+  ```powershell
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
   ```powershell
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -156,15 +177,21 @@
 #### Vite
 * 프랑스어로 "빠르다"는 뜻
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Webpack을 번들러로 사용하는 CRA 대비 ESBuild와 Rollup을 번들러로 사용하면서 10~100배 빠른 속도로 개발 서버 구동
 * CRA는 리액트만 지원하는 반면 Vite는 Vanilla JS, React, Svelte, Solid 등의 다양한 SPA 개발 환경을 지원
 * workspace/ch02-start 폴더로 이동 후 다음 명령 실행
   ```sh
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 * Webpack을 번들러로 사용하는 CRA 대비 Esbuild와 Rollup을 번들러로 사용하면서 10~100배 빠른 속도로 개발 서버 구동
 * CRA는 리액트만 지원하는 반면 Vite는 Vanilla JS, React, Svelte, Solid 등의 다양한 SPA 개발 환경을 지원
 * workspace/ch02-start 폴더로 이동 후 다음 명령 실행
   ```powershell
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
   npm init vite@latest
   ```
@@ -173,7 +200,11 @@
   - 개발언어 선택: JavaScript
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   ```sh
+=======
+  ```powershell
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
   ```powershell
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -214,7 +245,11 @@
   ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##### VSCode에서 alias 인식
+=======
+##### VSCode에서 alias로 import 했을 경우 Ctrl + 클릭시 해당 컴포넌트로 바로 이동하도록 설정
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
 ##### VSCode에서 alias로 import 했을 경우 Ctrl + 클릭시 해당 컴포넌트로 바로 이동하도록 설정
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -234,21 +269,31 @@
   ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##### VSCode에서 alias를 기준 import 자동 완성 설정
 * VSCode > File > Preferences > Settings > Import Module Specifier 검색
   - JavaScript › Preferences: Import Module Specifier 항목의 Preferred path style for auto imports. 값을 non-relative 로 지정
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 ##### VSCode에서 alias를 기준으로 import 자동 완성 설정
 * VSCode > File > Preferences > Settings > Import Module Specifier 검색
   - JavaScript › Preferences: Import Module Specifier 항목의 Preferred path style for auto imports. 값을 non-relative 로 지정
   - User 탭과 Workspace 탭 모두 설정
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 
 ## 2-3 리액트 애플리케이션 배포
 ### 프로젝트 빌드
 * 프로덕션 배포용 파일 생성
 <<<<<<< HEAD
+<<<<<<< HEAD
   ```sh
+=======
+  ```powershell
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
   ```powershell
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -266,17 +311,23 @@
 ### 빌드된 파일로 서버 실행
 * CRA
 <<<<<<< HEAD
+<<<<<<< HEAD
   ```sh
   npx serve -s build
   ```
 * Vite
   ```sh
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
   ```powershell
   npx serve -s build
   ```
 * Vite
   ```powershell
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
   npm run preview
   ```
@@ -287,7 +338,11 @@
 ### JSX란?
 * JSX(JavaScript XML)는 자바스크립트 파일 내에 HTML과 유사한 마크업을 작성할 수 있게 해주는 자바스크립트 확장 구문
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 리엑트에서 사용할 목적으로 개발되기는 했지만 JSX가 리액트에 포함된 기술은 아니기 때문에 리액트에서 JSX 사용이 필수는 아님
+=======
+* 리액트와 JSX는 별개이기 때문에 리액트에서 JSX 사용이 필수는 아님
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
 * 리액트와 JSX는 별개이기 때문에 리액트에서 JSX 사용이 필수는 아님
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -394,7 +449,11 @@
   - if문 대신 삼항 연산자 사용
     ```jsx
 <<<<<<< HEAD
+<<<<<<< HEAD
     { item.done ? <s>두부</s> : '두부' }
+=======
+    (item.done ? <s>두부</s> : '두부')
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
     (item.done ? <s>두부</s> : '두부')
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -422,6 +481,7 @@
     return <span>Hello { msg }</span>
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   // 만들어지는 문자열: <span>Hello &lt;i&gt;World&lt;/i&gt;</span>
   ```
 * 실행 결과
@@ -429,6 +489,8 @@
 * 해결 방법
   1. dangerouslySetInnerHTML 속성을 사용하면 HTML 태그를 인코딩하지 않음
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
   만들어지는 문자열: <span>Hello &lt;i&gt;World&lt;/i&gt;</span>
   ```
 * 예시 결과
@@ -436,6 +498,9 @@
 * 해결 방법
   1. dangerouslySetInnerHTML 속성을 사용하면 HTML 태그를 인코딩하지 않음
 
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
     ```jsx
     const App(){
@@ -446,6 +511,10 @@
     ```
   2. JSX는 XSS 공격에 안전하므로 JSX를 사용
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
 
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -518,7 +587,11 @@
   }
   ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Props로 객체를 전달 받을 때 자식 컴포넌트가 그 값을 직접 변경하는 것은 권장하지 않음
+=======
+* Props로 객체를 전달 받을 때 자식 컴포넌트가 그 값을 직접 변경하는 것은 지양
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
 * Props로 객체를 전달 받을 때 자식 컴포넌트가 그 값을 직접 변경하는 것은 지양
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -541,7 +614,11 @@
 
 ##### 리턴값
 <<<<<<< HEAD
+<<<<<<< HEAD
 * state: 저장된 상태값
+=======
+* state: 상태값이 저장된 getter
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
 * state: 상태값이 저장된 getter
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -551,7 +628,11 @@
 * 컴포넌트가 렌더링 되는 동안에만 사용할 수 있는 특별한 함수(훅, Hooks)
 * 컴포넌트의 최상위 수준이나 커스텀 훅 내부에서만 사용 가능(조건문, 반복문, 일반 함수 같은 블럭{ } 내부에서는 사용 불가)
 <<<<<<< HEAD
+<<<<<<< HEAD
 * useState가 호출되는 순서대로 리액트가 관리하는 배열에 저장되므로 그 값을 제대로 찾기 위해서는 리렌더링 될때에도 순서가 정확히 지켜져야 함
+=======
+* 컴포넌트 내에서 여러번 사용하면 리액트가 관리하는 배열에 저장되므로 컴포넌트가 리렌더링 될때 마다 순서가 정확히 지켜져야 한다.
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
 * 컴포넌트 내에서 여러번 사용하면 리액트가 관리하는 배열에 저장되므로 컴포넌트가 리렌더링 될때 마다 순서가 정확히 지켜져야 한다.
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -564,8 +645,13 @@
     const [age, setAge] = useState(36);
     ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 * state로 만든 변수는 컴포넌트가 여러번 사용 될때에도 각각의 값을 따로 관리
   - 컴포넌트 외부에 선언한 변수는 컴포넌트가 리렌더링 되어도 값이 유지되지만 해당 컴포넌트를 여러곳에서 사용할 경우 모든 컴포넌트가 공유하는 값이 되므로 컴포넌트 내부의 상태관리에 적합하지 않음
+=======
+* state로 만든 변수는 컴포넌트를 여러곳에서 사용해도 각각의 값을 따로 관리
+  - 컴포넌트 외부에 선언한 변수는 컴포넌트 리렌더링 되어도 값이 유지되지만 해당 컴포넌트를 여러곳에서 사용할 경우 모든 컴포넌트가 공유하는 값이 되므로 컴포넌트 내부의 상태관리에 적합하지 않음
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
 * state로 만든 변수는 컴포넌트를 여러곳에서 사용해도 각각의 값을 따로 관리
   - 컴포넌트 외부에 선언한 변수는 컴포넌트 리렌더링 되어도 값이 유지되지만 해당 컴포넌트를 여러곳에서 사용할 경우 모든 컴포넌트가 공유하는 값이 되므로 컴포넌트 내부의 상태관리에 적합하지 않음
@@ -616,7 +702,11 @@
   - 삭제: pop(), shift() 대신 filter(), slice()
   - 수정: splice(), arr[i] 대신 map()
 <<<<<<< HEAD
+<<<<<<< HEAD
   - 정렬: reverse(), sort()를 바로 사용하지 말고 배열 복사 후 사용
+=======
+  - 정렬: reverse(), sort() 바로 사용하지 말고 배열 복사 후 사용
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
   - 정렬: reverse(), sort() 바로 사용하지 말고 배열 복사 후 사용
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -626,6 +716,7 @@
   - 객체를 불변성으로 만들어주는 라이브러리
   - 설치
 <<<<<<< HEAD
+<<<<<<< HEAD
     ```sh
     npm i immer
     ```
@@ -633,14 +724,19 @@
   - 상태의 불변성을 유지하기 위해 직접 작성한 코드 예시
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
     ```powershell
     npm i immer
     ```
 
   - 상태의 불변성을 유지하기 위한 예시
+<<<<<<< HEAD
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
 >>>>>>> 6b587e0 (📝)
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
     ```js
     const newAddressBook = user.extra.addressBook.map(address => {
       if(address.id === Number(e.target.name)){
@@ -665,6 +761,7 @@
     ```js
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     import { produce } from 'immer';
     ...
 =======
@@ -673,6 +770,8 @@
     import { produce } from 'immer';
     ...
 >>>>>>> 6b587e0 (📝)
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
     const newState = produce(user, draft => {
       const address = draft.extra.addressBook.find(address => address.id === Number(e.target.name));
       address.value = e.target.value;
@@ -683,15 +782,21 @@
 
 ## 2-7 유효성 검증
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### prop-types
 * 컴포넌트에 전달된 Props의 유효성을 검증하는 기능
 * 설치
   ```sh
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 ### Props의 유효성 검증
 * 컴포넌트가 전달받은 Props의 유효성을 검증하는 기능
 * 설치
   ```powershell
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
   npm i prop-types
   ```
@@ -750,7 +855,11 @@
 
   MyComponent.propTypes = {
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 특정 JS 타입임을 선언(해당 속성이 전달 된다면 지정한 타입이어야 함)
+=======
+    // 특정 JS 타입임을 선언(해당 속성이 전달되지 않아도 됨)
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
     // 특정 JS 타입임을 선언(해당 속성이 전달되지 않아도 됨)
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -766,15 +875,21 @@
     optionalNode: PropTypes.node,
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // React 엘리먼트(JSX, React.createElement()로 생성된 엘리먼트)
     optionalElement: PropTypes.element,
 
     // React 컴포넌트(클래스 컴포넌트, 함수 컴포넌트, HTML 태그명)
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
     // React 엘리먼트
     optionalElement: PropTypes.element,
 
     // React 동적으로 로딩된 엘리먼트
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
     optionalElementType: PropTypes.elementType,
 
@@ -814,7 +929,11 @@
     requiredFunc: PropTypes.func.isRequired,
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 타입은 상관없고 필수임을 나타낼때
+=======
+    // 모든 데이터 타입이 가능한 필수값
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
     // 모든 데이터 타입이 가능한 필수값
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -854,7 +973,11 @@
 * Form 태그의 사용자의 입력 데이터를 검증
 * react-hook-form 설치
 <<<<<<< HEAD
+<<<<<<< HEAD
   ```sh
+=======
+  ```powershell
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 =======
   ```powershell
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
@@ -862,6 +985,7 @@
   ```
 
 ## 2-8 컴포넌트 구분
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ### 컨테이너 컴포넌트와 표현 컴포넌트
@@ -878,6 +1002,8 @@
 * 상태를 관리하지 않고, 부모 컴포넌트로부터 전달받은 Props를 기반으로 UI만 렌더링
 * UI를 반환하는 기능에만 집중하므로 구현이 단순해지고, 재사용성이 높아짐
 =======
+=======
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
 ### 컨테이너 컴포넌트와 표현 컴포넌트
 * 상태와 비즈니스 로직을 처리하는 컨테이너와 UI를 담당하는 컨테이너를 분리해서 설계
 * 컴포넌트의 역할이 명확해지고 표현 컴포넌트에서는 상태 관련 로직이 제거되므로 상태 관련 컴포넌트가 줄어들어 상태 추적이 용이하고 디버깅이 쉬워짐
@@ -890,4 +1016,7 @@
 * 부모 컴포넌트로 부터 Props를 전달받아서 UI를 반환하는 기능만 담당
 * 상태를 관리하지 않기 때문에 구현이 단순해짐
 
+<<<<<<< HEAD
+>>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
