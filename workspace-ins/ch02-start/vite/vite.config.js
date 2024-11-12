@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b2d0675 (✨ vite counter 실습)
   resolve: {
     alias: [
       { find: "@", replacement: "/src" },
@@ -13,6 +16,9 @@ export default defineConfig({
       { find: "@hooks", replacement: "/src/hooks" },
     ],
   },
+<<<<<<< HEAD
 =======
 >>>>>>> fa8a6cd (✨)
+=======
+>>>>>>> b2d0675 (✨ vite counter 실습)
 })

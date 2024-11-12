@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Todo from "@pages/todo/Todo"
 
 function App() {
@@ -8,9 +9,13 @@ function App() {
 }
 =======
 import Todo from "./pages/todo/Todo"
+=======
+import Todo from "@pages/todo/Todo"
+
+>>>>>>> b2d0675 (✨ vite counter 실습)
 function App() {
   return (
-    <Todo />
+      <Todo />
   )
 }
 <<<<<<< HEAD

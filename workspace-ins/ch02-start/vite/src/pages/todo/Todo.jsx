@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Title from "@components/Title";
 =======
 import Title from '../../components/Title';
@@ -7,6 +8,10 @@ import Title from '../../components/Title';
 
 =======
 >>>>>>> 1fc4218 (🚧)
+=======
+import Title from "@components/Title";
+
+>>>>>>> b2d0675 (✨ vite counter 실습)
 function Todo(){
   return (
     <div>
