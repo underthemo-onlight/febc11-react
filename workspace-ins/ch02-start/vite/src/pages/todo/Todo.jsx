@@ -2,8 +2,11 @@
 import Title from "@components/Title";
 =======
 import Title from '../../components/Title';
+<<<<<<< HEAD
 >>>>>>> fa8a6cd (✨)
 
+=======
+>>>>>>> 1fc4218 (🚧)
 function Todo(){
   return (
     <div>
@@ -13,7 +16,10 @@ function Todo(){
   );
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fa8a6cd (✨)
+=======
+>>>>>>> 1fc4218 (🚧)
 export default Todo;

@@ -4,7 +4,10 @@ function Title(){
   );
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fa8a6cd (✨)
+=======
+>>>>>>> 1fc4218 (🚧)
 export default Title;
