@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Todo from "@pages/todo/Todo"
 
 function App() {
@@ -5,4 +6,14 @@ function App() {
       <Todo />
   )
 }
+=======
+import Todo from "./pages/todo/Todo"
+
+function App() {
+  return (
+    <Todo />
+  )
+}
+
+>>>>>>> fa8a6cd (✨)
 export default App
