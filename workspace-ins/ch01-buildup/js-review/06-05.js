@@ -51,10 +51,20 @@ function test(){
 >>>>>>> 888ebae (🚧)
 =======
 async function test(){
+<<<<<<< HEAD
   const f1Result = await f1();
   const result = await f2(f1Result);
   console.log('8.', result);
 >>>>>>> 7bfb4d2 (✨)
+=======
+  try{
+    const f1Result = await f1();
+    const result = await f2(f1Result);
+    console.log('8.', result);
+  }catch(err){
+    console.error(err);
+  }
+>>>>>>> 01cf8b7 (✨)
 }
 
 console.log('1. 테스트 시작.');
