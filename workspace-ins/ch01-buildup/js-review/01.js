@@ -29,6 +29,7 @@ var arr2 = arr.map(function(item){
 // Arrow function, ES6
 var arr2 = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 arr.forEach(item => arr2.push(item * item));
 
 var arr2 = arr.map(item => item * item);
@@ -42,5 +43,10 @@ var arr2 = arr.map((item) => {
 });
 
 >>>>>>> 90075e1 (⚰️)
+=======
+arr.forEach(item => arr2.push(item * item));
+
+var arr2 = arr.map(item => item * item);
+>>>>>>> e979f50 (✨)
 
 console.log(arr2);  // [100, 400, 900]
