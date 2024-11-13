@@ -1,4 +1,8 @@
 // 06-04.js 복사
+<<<<<<< HEAD
+=======
+// 06-03.js 복사
+>>>>>>> 888ebae (🚧)
 function f1(){
   return new Promise((resolve, reject) => {
     console.log(`2. f1 작업 시작.`);
@@ -26,6 +30,7 @@ function f2(f1Result){
   });
 }
 
+<<<<<<< HEAD
 async function test(){
   try{
     const f1Result = await f1();
@@ -34,6 +39,12 @@ async function test(){
   }catch(err){
     console.error(err);
   }
+=======
+function test(){
+  f1().then(f2)
+      .then(result => console.log('8', result))
+      .catch((err) => console.error(err));
+>>>>>>> 888ebae (🚧)
 }
 
 console.log('1. 테스트 시작.');

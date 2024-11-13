@@ -19,6 +19,7 @@ function test(){
   const result = f2(f1Result);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   console.log('8.', result);
 =======
   console.log(result);
@@ -26,6 +27,9 @@ function test(){
 =======
   console.log('8', result);
 >>>>>>> 60b8484 (🚧)
+=======
+  console.log('8.', result);
+>>>>>>> 888ebae (🚧)
 }
 
 console.log('1. 테스트 시작.');
