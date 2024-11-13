@@ -28,8 +28,19 @@ var arr2 = arr.map(function(item){
 
 // Arrow function, ES6
 var arr2 = [];
+<<<<<<< HEAD
 arr.forEach(item => arr2.push(item * item));
 
 var arr2 = arr.map(item => item * item);
+=======
+arr.forEach((item) => {
+  arr2.push(item * item);
+});
+
+var arr2 = arr.map((item) => {
+  return (item * item);
+});
+
+>>>>>>> 90075e1 (⚰️)
 
 console.log(arr2);  // [100, 400, 900]
