@@ -38,16 +38,28 @@
   <div id="root"></div>
 
   <script type="text/babel">
+<<<<<<< HEAD
     document.querySelector('#filepath').textContent = `ch${document.URL.split('/ch')[1]}`;
+=======
+    document.querySelector('#filepath').textContent = `ch${document.URL.split('/ch')[1]}index.html`;
+>>>>>>> e85950e (🚧)
 
     // 1. 로그인 체크
     function App1() {
       var isLogin = true;
+<<<<<<< HEAD
       var isLogin = false;
       
       return (
         <>
           { isLogin ? <h1>환영합니다.</h1> : <h1>로그인이 필요합니다.</h1> }
+=======
+      // var isLogin = false;
+      
+      return (
+        <>
+        
+>>>>>>> e85950e (🚧)
         </>
       );
     }
@@ -55,11 +67,19 @@
     // 2. 목록 조회
     function App2() {
       var itemList = [{ _id: 1, title: '두부' }, { _id: 2, title: '계란' }, { _id: 3, title: '라면' }];
+<<<<<<< HEAD
       var itemList = [];
 
       return (
         <>
           { itemList.length > 0 ? <ul>{ itemList.map(item => <li key={ item._id }>{ item.title }</li>) }</ul> : <p>장바구니가 비었습니다.</p> }
+=======
+      // var itemList = [];
+
+      return (
+        <>
+          
+>>>>>>> e85950e (🚧)
         </>
       );
     }
@@ -67,6 +87,7 @@
     // 3. 삼항 연산자 중첩
     function App3(){
       var status = 'online';
+<<<<<<< HEAD
       var status = 'away';
 
       // return (
@@ -103,6 +124,15 @@
 
 
       
+=======
+      // var status = 'away';
+
+      return (
+        <>
+          
+        </>
+      );
+>>>>>>> e85950e (🚧)
     }
 
     // 4. 조건부 클래스 적용
@@ -112,7 +142,11 @@
 
       return (
         <>
+<<<<<<< HEAD
           <button className={ isActive ? 'active' : 'inactive' }>{ isActive ? '클릭' : '기다려' }</button>
+=======
+          
+>>>>>>> e85950e (🚧)
         </>
       );
     }
@@ -120,6 +154,7 @@
     // 5. 조건에 따라 요소를 생성하지 않기
     function App5(){
       var isShow = false;
+<<<<<<< HEAD
       var isShow = true;
         
       return (
@@ -133,6 +168,15 @@
       //     { isShow && <p>이곳에 보여줌</p> }
       //   </>
       // );
+=======
+      // var isShow = true;
+
+      return (
+        <>
+          
+        </>
+      );
+>>>>>>> e85950e (🚧)
     }
 
     function App(){
