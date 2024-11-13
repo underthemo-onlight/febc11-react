@@ -108,6 +108,9 @@
     function App3(){
       var status = 'online';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 779f5e4 (✨)
       var status = 'away';
 
       // return (
@@ -135,6 +138,7 @@
         default:
           statusText = '오프라인 상태';
       }
+<<<<<<< HEAD
 
       return (
         <>
@@ -146,13 +150,21 @@
       
 =======
       // var status = 'away';
+=======
+>>>>>>> 779f5e4 (✨)
 
       return (
         <>
-          
+          <h1>{ statusText }</h1>
         </>
       );
+<<<<<<< HEAD
 >>>>>>> e85950e (🚧)
+=======
+
+
+      
+>>>>>>> 779f5e4 (✨)
     }
 
     // 4. 조건부 클래스 적용
@@ -163,10 +175,14 @@
       return (
         <>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <button className={ isActive ? 'active' : 'inactive' }>{ isActive ? '클릭' : '기다려' }</button>
 =======
           
 >>>>>>> e85950e (🚧)
+=======
+          <button className={ isActive ? 'active' : 'inactive' }>{ isActive ? '클릭' : '기다려' }</button>
+>>>>>>> 779f5e4 (✨)
         </>
       );
     }
@@ -174,6 +190,7 @@
     // 5. 조건에 따라 요소를 생성하지 않기
     function App5(){
       var isShow = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
       var isShow = true;
         
@@ -190,10 +207,13 @@
       // );
 =======
       // var isShow = true;
+=======
+      var isShow = true;
+>>>>>>> 779f5e4 (✨)
 
       return (
         <>
-          
+          { isShow ? <p>이곳에 보여줌</p> : null }
         </>
       );
 >>>>>>> e85950e (🚧)
