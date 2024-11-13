@@ -1,8 +1,12 @@
 import React from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Button from "./Button";
 =======
 >>>>>>> b2d0675 (✨ vite counter 실습)
+=======
+import Button from "./Button";
+>>>>>>> 73ef1c5 (👔)
 
 function Counter(){
   let [count, setCount] = React.useState(0);
@@ -20,6 +24,7 @@ function Counter(){
   return (
     <div id="counter">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Button color="red" onClick={ handleDown }>-</Button>
       <Button onClick={ (event) => handleReset(event) }>0</Button>
       <Button color="blue" onClick={ handleUp }>+</Button>
@@ -28,6 +33,11 @@ function Counter(){
       <button type="button" onClick={ (event) => handleReset(event) }>0</button>
       <button type="button" onClick={ handleUp }>+</button>
 >>>>>>> b2d0675 (✨ vite counter 실습)
+=======
+      <Button onClick={ handleDown }>-</Button>
+      <Button onClick={ (event) => handleReset(event) }>0</Button>
+      <Button onClick={ handleUp }>+</Button>
+>>>>>>> 73ef1c5 (👔)
       <span>{ count }</span>
     </div>
   );

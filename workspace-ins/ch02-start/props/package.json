@@ -1,15 +1,20 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "props2",
 =======
   "name": "props",
 >>>>>>> b2d0675 (✨ vite counter 실습)
+=======
+  "name": "props2",
+>>>>>>> 73ef1c5 (👔)
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "lint": "eslint .",
     "preview": "vite preview"
@@ -31,13 +36,17 @@
     "vite": "^5.4.10"
 =======
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+=======
+    "lint": "eslint .",
+>>>>>>> 73ef1c5 (👔)
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
@@ -47,5 +56,17 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
 >>>>>>> b2d0675 (✨ vite counter 실습)
+=======
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "vite": "^5.4.10"
+>>>>>>> 73ef1c5 (👔)
   }
 }
