@@ -25,6 +25,7 @@ function Counter(){
     <div id="counter">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Button color="red" onClick={ handleDown }>-</Button>
       <Button onClick={ (event) => handleReset(event) }>0</Button>
       <Button color="blue" onClick={ handleUp }>+</Button>
@@ -38,6 +39,11 @@ function Counter(){
       <Button onClick={ (event) => handleReset(event) }>0</Button>
       <Button onClick={ handleUp }>+</Button>
 >>>>>>> 73ef1c5 (👔)
+=======
+      <Button color="red" onClick={ handleDown }>-</Button>
+      <Button onClick={ (event) => handleReset(event) }>0</Button>
+      <Button color="blue" onClick={ handleUp }>+</Button>
+>>>>>>> c374697 (✨)
       <span>{ count }</span>
     </div>
   );
