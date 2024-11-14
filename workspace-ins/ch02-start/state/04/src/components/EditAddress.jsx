@@ -8,7 +8,11 @@ export default function EditAddress({ addressBook, handleAddressChange }){
         <input
           id={ address.id }
           type="text"
+<<<<<<< HEAD
           name={ address.id }
+=======
+          name={ address.name }
+>>>>>>> 1b0d2fc (🚧)
           value={ address.value }
           onChange={ handleAddressChange }
         />

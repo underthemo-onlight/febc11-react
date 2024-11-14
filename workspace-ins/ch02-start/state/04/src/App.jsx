@@ -1,6 +1,9 @@
 import { useState } from "react";
 import EditAddress from "./components/EditAddress";
+<<<<<<< HEAD
 import { produce } from 'immer';
+=======
+>>>>>>> 1b0d2fc (🚧)
 
 function App() {
 
@@ -32,6 +35,7 @@ function App() {
   });
 
   const handleAddressChange = event => {
+<<<<<<< HEAD
     // 상태의 불변성이 지켜지지 않음
     // const address = user.extra.addressBook.find(address => address.id === Number(event.target.name));
     // address.value = event.target.value;
@@ -73,6 +77,9 @@ function App() {
     console.log('기존 회사 주소', user.extra.addressBook[0].value);
 
     setUser(newState);
+=======
+    
+>>>>>>> 1b0d2fc (🚧)
   };
 
   return (
