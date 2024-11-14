@@ -22,10 +22,14 @@ console.log(second);
 console.log(second.no, second.todo);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var no = 100;
 =======
 const no = 100;
 >>>>>>> 42ba0be (✨)
+=======
+var no = 100;
+>>>>>>> 3486851 (✨)
 var { todo, no: number, hello } = second;
 console.log(number, todo, hello);
 
