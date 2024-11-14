@@ -10,6 +10,7 @@ export default function EditAddress({ addressBook, handleAddressChange }){
           type="text"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           name={ address.id }
 =======
           name={ address.name }
@@ -17,6 +18,9 @@ export default function EditAddress({ addressBook, handleAddressChange }){
 =======
           name={ address.id }
 >>>>>>> 19ce6f9 (🚧)
+=======
+          name={ address.name }
+>>>>>>> 1b0d2fc (🚧)
           value={ address.value }
           onChange={ handleAddressChange }
         />
