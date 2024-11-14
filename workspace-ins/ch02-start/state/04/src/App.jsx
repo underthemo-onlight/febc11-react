@@ -1,4 +1,5 @@
 import { useState } from "react";
+<<<<<<< HEAD
 import EditAddress from "./components/EditAddress";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8,6 +9,8 @@ import { produce } from 'immer';
 =======
 import { produce } from 'immer';
 >>>>>>> 14a2b90 (✨)
+=======
+>>>>>>> c1c920a (🚧)
 
 function App() {
 
@@ -38,6 +41,7 @@ function App() {
     }
   });
 
+<<<<<<< HEAD
   const handleAddressChange = event => {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,23 +134,32 @@ function App() {
 >>>>>>> a3e06a7 (🚧)
   };
 
+=======
+>>>>>>> c1c920a (🚧)
   return (
     <>
       <h2>04 상태관리 대상이 복합 객체일 경우 불변성 관리</h2>
       <p>
+<<<<<<< HEAD
         이메일: { user.email }<br/>
+=======
+        이메일: { user.emain }<br/>
+>>>>>>> c1c920a (🚧)
         이름: { user.name }<br/>
         전화번호: { user.phone }<br/>
       </p>
       <ul>
         { user.extra.addressBook?.map(address => <li key={ address.id }>{ address.name }: { address.value }</li>) }
       </ul>
+<<<<<<< HEAD
       <p>
         <EditAddress 
           addressBook={ user.extra.addressBook }
           handleAddressChange={ handleAddressChange }
         />
       </p>
+=======
+>>>>>>> c1c920a (🚧)
     </>
   );
 }

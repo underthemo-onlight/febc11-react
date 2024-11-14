@@ -15,7 +15,7 @@ import { useState } from "react";
 
 function App(){
 
-  const [position, setPosition] = useState({ x: 100, y: 250 });
+  const [position, setPosition] = useState({ x: 50, y: 50 });
 
 >>>>>>> fb6cdec (🚧)
   return (
@@ -39,8 +39,15 @@ function App(){
 >>>>>>> 8246e5e (🚧)
 =======
         onPointerMove={ event => {
-          position.x = event.clientX;
-          position.y = event.clientY;
+          // 속성을 직접 수정하면 리렌더링되지 않음
+          // position.x = event.clientX;
+          // position.y = event.clientY;
+
+          const newPosition = { x: event.clientX, y: event.clientY - 80 };
+
+          setPosition(newPosition);
+
+          console.log(position);
         } }
 >>>>>>> fb6cdec (🚧)
         style={{
