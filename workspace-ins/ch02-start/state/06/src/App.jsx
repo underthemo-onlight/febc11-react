@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { useRef, useState } from "react";
 >>>>>>> 324400f (🚧)
@@ -9,6 +10,8 @@ import { useRef, useState } from "react";
 =======
 import { useRef, useState } from "react";
 >>>>>>> 324400f (🚧)
+=======
+>>>>>>> a836afe (✨)
 import { useForm } from "react-hook-form";
 
 const errorStyle = {
