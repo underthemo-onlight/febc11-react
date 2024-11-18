@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1bed233 (✨)
 import { useRef, useState } from "react";
 
 const errorStyle = {
@@ -169,6 +172,11 @@ function App() {
 
   const [errors, setErrors] = useState({});
 
+  // DOM 객체에 직접 접근하려고 할때
+  const nameElem = useRef(null);
+  const emailElem = useRef(null);
+  const cellphoneElem = useRef(null);
+
   // const handleNameChange = (event) => {
   //   setName(event.target.value);
   // };
@@ -197,26 +205,32 @@ function App() {
       newErrors = {
         name: { message: '이름을 입력하세요.' }
       };
+      nameElem.current.focus();
     }else if(user.name.trim().length < 2){
       newErrors = {
         name: { message: '2글자 이상 입력하세요.' }
       };
+      nameElem.current.focus();
     }else if(user.email.trim() === ''){
       newErrors = {
         email: { message: '이메일을 입력하세요.' }
       };
+      emailElem.current.focus();
     }else if(user.cellphone.trim() === ''){
       newErrors = {
         cellphone: { message: '휴대폰 번호를 입력하세요.' }
       };
+      cellphoneElem.current.focus();
     }else if(emailExp.test(user.email) === false){
       newErrors = {
         email: { message: '이메일 양식에 맞지 않습니다.' }
       };
+      emailElem.current.focus();
     }else if(cellphoneExp.test(user.cellphone) === false){
       newErrors = {
         cellphone: { message: '휴대폰 형식에 맞지 않습니다.' }
       };
+      cellphoneElem.current.focus();
     }
 
     if(newErrors){ // 검증 실패
@@ -242,6 +256,7 @@ function App() {
           name="name"
           value={ user.name }
           onChange={ handleChange }
+          ref={ nameElem }
         /><br/>
         <div style={ errorStyle }>{ errors.name?.message }</div>
 
@@ -251,6 +266,7 @@ function App() {
           name="email"
           value={ user.email }
           onChange={ handleChange }
+          ref={ emailElem }
         /><br/>
         <div style={ errorStyle }>{ errors.email?.message }</div>
 
@@ -260,6 +276,7 @@ function App() {
           name="cellphone"
           value={ user.cellphone }
           onChange={ handleChange }
+          ref={ cellphoneElem }
         /><br/>
         <div style={ errorStyle }>{ errors.cellphone?.message }</div>
 
@@ -267,9 +284,9 @@ function App() {
       </form>
 
       <p>
-        이름: <br/>
-        이메일: <br/>
-        휴대폰: <br/>
+        이름: { user.name }<br/>
+        이메일: { user.email }<br/>
+        휴대폰: { user.cellphone }<br/>
       </p>
 >>>>>>> 345a303 (🚧)
     </>
