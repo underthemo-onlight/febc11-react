@@ -37,12 +37,16 @@ function App() {
   const handleAddressChange = event => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a3e06a7 (🚧)
     // 상태의 불변성이 지켜지지 않음
     // const address = user.extra.addressBook.find(address => address.id === Number(event.target.name));
     // address.value = event.target.value;
     // const newState = { ...user };
 
     // 상태의 불변성을 지키기 위해 복잡한 추가 작업 필요
+<<<<<<< HEAD
     // 그나마 주소를 바꾼다는 젠제이기 때문에 덜 복잡함
     // const newAddressBook = user.extra.addressBook.map(address => {
     //   if(address.id === Number(event.target.name)){
@@ -67,6 +71,24 @@ function App() {
       address.value = event.target.value;
     });
 
+=======
+    const newAddressBook = user.extra.addressBook.map(address => {
+      if(address.id === Number(event.target.name)){
+        return { ...address, value: event.target.value };
+      }else{
+        return address;
+      }
+    });
+
+    const newState = {
+      ...user
+      , extra: {
+        ...user.extra,
+        addressBook: newAddressBook
+      }
+    };
+
+>>>>>>> a3e06a7 (🚧)
     // 회사 주소가 변경될 경우
     console.log('user', user === newState); // false
     console.log('user.extra', user.extra === newState.extra); // false
@@ -78,6 +100,7 @@ function App() {
     console.log('기존 회사 주소', user.extra.addressBook[0].value);
 
     setUser(newState);
+<<<<<<< HEAD
 =======
     
 >>>>>>> 1b0d2fc (🚧)
@@ -86,6 +109,8 @@ function App() {
     address.value = event.target.value;
     setUser({ ...user });
 >>>>>>> 19ce6f9 (🚧)
+=======
+>>>>>>> a3e06a7 (🚧)
   };
 
   return (
