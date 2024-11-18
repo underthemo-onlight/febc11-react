@@ -143,7 +143,9 @@ function App() {
 >>>>>>> c1c920a (🚧)
 =======
   const handleAddressChange = event => {
-    
+    const address = user.extra.addressBook.find(address => address.id === Number(event.target.name));
+    address.value = event.target.value;
+    setUser({ ...user });
   };
 
 >>>>>>> 1b0d2fc (🚧)
