@@ -36,6 +36,7 @@ function App() {
 
   const handleAddressChange = event => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 상태의 불변성이 지켜지지 않음
     // const address = user.extra.addressBook.find(address => address.id === Number(event.target.name));
     // address.value = event.target.value;
@@ -80,6 +81,11 @@ function App() {
 =======
     
 >>>>>>> 1b0d2fc (🚧)
+=======
+    const address = user.extra.addressBook.find(address => address.id === Number(event.target.name));
+    address.value = event.target.value;
+    setUser({ ...user });
+>>>>>>> 19ce6f9 (🚧)
   };
 
   return (
