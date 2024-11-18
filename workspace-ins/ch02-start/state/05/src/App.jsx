@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1bed233 (✨)
 import { useRef, useState } from "react";
@@ -289,6 +290,12 @@ function App() {
         휴대폰: { user.cellphone }<br/>
       </p>
 >>>>>>> 345a303 (🚧)
+=======
+function App() {
+  return (
+    <>
+      
+>>>>>>> 461eef4 (🚧)
     </>
   );
 }
