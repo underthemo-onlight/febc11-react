@@ -4,8 +4,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1bed233 (✨)
+=======
+>>>>>>> 7d2d01b (✨)
 =======
 >>>>>>> 1bed233 (✨)
 import { useRef, useState } from "react";
@@ -229,17 +232,36 @@ function App() {
       newErrors = {
         cellphone: { message: '휴대폰 번호를 입력하세요.' }
       };
+<<<<<<< HEAD
       cellphoneElem.current.focus();
     }else if(emailExp.test(user.email) === false){
+=======
+<<<<<<< HEAD
+    }else if(emailExp.test(user.email)){
+=======
+      cellphoneElem.current.focus();
+    }else if(emailExp.test(user.email) === false){
+>>>>>>> 4738c83 (✨)
+>>>>>>> 7d2d01b (✨)
       newErrors = {
         email: { message: '이메일 양식에 맞지 않습니다.' }
       };
+<<<<<<< HEAD
       emailElem.current.focus();
     }else if(cellphoneExp.test(user.cellphone) === false){
+=======
+<<<<<<< HEAD
+    }else if(cellphoneExp.test(user.email)){
+=======
+      emailElem.current.focus();
+    }else if(cellphoneExp.test(user.cellphone) === false){
+>>>>>>> 4738c83 (✨)
+>>>>>>> 7d2d01b (✨)
       newErrors = {
         cellphone: { message: '휴대폰 형식에 맞지 않습니다.' }
       };
       cellphoneElem.current.focus();
+<<<<<<< HEAD
     }
 
     if(newErrors){ // 검증 실패
@@ -386,6 +408,8 @@ function App() {
         cellphone: { message: '휴대폰 형식에 맞지 않습니다.' }
       };
       cellphoneElem.current.focus();
+=======
+>>>>>>> 7d2d01b (✨)
     }
 
     if(newErrors){
