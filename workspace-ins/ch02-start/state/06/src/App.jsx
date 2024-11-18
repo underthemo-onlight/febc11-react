@@ -30,9 +30,13 @@ function App() {
   });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   // handleSubmit에서 검증을 통과할 경우 호출됨
 =======
 >>>>>>> 324400f (🚧)
+=======
+  // handleSubmit에서 검증을 통과할 경우 호출됨
+>>>>>>> 39f02cf (✨)
   const onSubmit = (user) => {
     console.log('서버에 전송', user);
   };
