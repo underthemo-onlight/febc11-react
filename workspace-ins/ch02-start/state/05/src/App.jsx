@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useRef, useState } from "react";
 
 const errorStyle = {
@@ -136,6 +137,12 @@ function App() {
         이메일: { user.email }<br/>
         휴대폰: { user.cellphone }<br/>
       </p>
+=======
+function App() {
+  return (
+    <>
+      
+>>>>>>> 461eef4 (🚧)
     </>
   );
 }
