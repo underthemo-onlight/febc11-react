@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import PropTypes from "prop-types";
+=======
+>>>>>>> ea8cc6f (ins 폴더 재생성)
 import TodoInput from "@pages/TodoInput";
 import TodoList from "@pages/TodoList";
 
@@ -18,6 +21,7 @@ function Todo(props){
   );
 }
 
+<<<<<<< HEAD
 Todo.propTypes = {
   itemList: PropTypes.array.isRequired,
   addItem: PropTypes.func.isRequired,
@@ -25,4 +29,6 @@ Todo.propTypes = {
   deleteItem: PropTypes.func.isRequired,
 };
 
+=======
+>>>>>>> ea8cc6f (ins 폴더 재생성)
 export default Todo;

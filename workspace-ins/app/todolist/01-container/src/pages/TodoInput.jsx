@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import PropTypes from "prop-types";
+=======
+>>>>>>> ea8cc6f (ins 폴더 재생성)
 import { useState } from "react";
 
 function TodoInput({ addItem }){
@@ -27,8 +30,11 @@ function TodoInput({ addItem }){
   );
 }
 
+<<<<<<< HEAD
 TodoInput.propTypes = {
   addItem: PropTypes.func.isRequired
 };
 
+=======
+>>>>>>> ea8cc6f (ins 폴더 재생성)
 export default TodoInput;
