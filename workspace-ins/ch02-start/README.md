@@ -631,6 +631,7 @@
     ```
 
   - 상태의 불변성을 유지하기 위해 직접 작성한 코드 예시
+<<<<<<< HEAD
 =======
     ```powershell
     npm i immer
@@ -638,6 +639,8 @@
 
   - 상태의 불변성을 유지하기 위한 예시
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
+>>>>>>> 6b587e0 (📝)
     ```js
     const newAddressBook = user.extra.addressBook.map(address => {
       if(address.id === Number(e.target.name)){
@@ -661,10 +664,15 @@
   - immer 사용 예시
     ```js
 <<<<<<< HEAD
+<<<<<<< HEAD
     import { produce } from 'immer';
     ...
 =======
 >>>>>>> 40ec2f0 (✨ 단원별 폴더 추가)
+=======
+    import { produce } from 'immer';
+    ...
+>>>>>>> 6b587e0 (📝)
     const newState = produce(user, draft => {
       const address = draft.extra.addressBook.find(address => address.id === Number(e.target.name));
       address.value = e.target.value;
