@@ -4,9 +4,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 소스 코드(GitHub): <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch02-start>
 =======
 >>>>>>> b88b179 (📝)
+=======
+=======
+* 소스 코드(GitHub): <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch02-start>
+>>>>>>> ea8cc6f (ins 폴더 재생성)
+>>>>>>> 6c52e13 (ins 폴더 재생성)
 * 코드 실행(GitHub Page): <https://uzoolove.github.io/febc11-react/workspace-ins/index.html#02>
 =======
 * 소스 코드(GitHub): <https://github.com/uzoolove/FES09-React/tree/main/workspace-ins/ch02-start>
