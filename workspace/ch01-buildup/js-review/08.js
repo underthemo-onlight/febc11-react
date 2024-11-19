@@ -30,5 +30,5 @@ isPrime(7);
 isPrime(8);
 isPrime(9);
 isPrime(1000000007);
-isPrime(1000000007);
-isPrime(1000000007);
+isPrime(1000000008);
+isPrime(1000000009);
