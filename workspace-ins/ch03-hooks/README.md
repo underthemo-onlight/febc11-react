@@ -138,6 +138,7 @@ const ref = useRef(initialValue);
 * `current`라는 상태값 또는 DOM 요소가 있는 속성 하나가 정의된 객체
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### input 요소의 값 지정: useState vs. useRef
 #### useState 사용
 * value 속성으로 상태값 지정
@@ -187,6 +188,8 @@ function Counter() {
 
 =======
 >>>>>>> ea8cc6f (ins 폴더 재생성)
+=======
+>>>>>>> 17439cf (📝)
 ## useMemo
 - 지정한 함수를 호출하여 반환받은 결과값을 내부에 저장(캐싱)하는 함수
 
