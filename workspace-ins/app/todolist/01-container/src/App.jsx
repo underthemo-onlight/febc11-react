@@ -1,11 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aacba05 (✨)
 import Footer from "@components/Footer";
 import Header from "@components/Header";
 import TodoContainer from '@pages/TodoContainer';
 
 function App(){
+<<<<<<< HEAD
   return (
     <div id="todo">
       <Header />
@@ -79,6 +83,14 @@ function TodoContainer(){
 
   return (
     <Todo itemList={ itemList } addItem={ addItem } toggleDone={ toggleDone } deleteItem={ deleteItem } />
+=======
+  return (
+    <div id="todo">
+      <Header />
+      <TodoContainer />
+      <Footer />
+    </div>
+>>>>>>> aacba05 (✨)
   );
 
 }
