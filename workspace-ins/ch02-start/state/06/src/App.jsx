@@ -20,11 +20,17 @@ function App() {
 
   const { register, handleSubmit, watch, formState: { errors } } = useForm({
 <<<<<<< HEAD
+<<<<<<< HEAD
     mode: 'onSubmit', // 최초 검증 시점, default onSubmit
     reValidateMode: 'onChange', // 재검증 시점, default onChange
     criteriaMode: 'firstError', // 검증 에러가 발생할 경우 errors 객체의 필드 속성에 첫 오류 하나만 포함하거나(firstError) 전부 포함(all), default firstError
 =======
 >>>>>>> 324400f (🚧)
+=======
+    mode: 'onSubmit', // 최초 검증 시점, default onSubmit
+    reValidateMode: 'onChange', // 재검증 시점, default onChange
+    criteriaMode: 'firstError', // 검증 에러가 발생할 경우 errors 객체의 필드 속성에 첫 오류 하나만 포함하거나(firstError) 전부 포함(all), default firstError
+>>>>>>> d7b556e (📝)
     defaultValues: {
       name: '',
       email: '',
@@ -45,10 +51,15 @@ function App() {
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   console.log(errors);
 
 =======
 >>>>>>> 324400f (🚧)
+=======
+  console.log(errors);
+
+>>>>>>> d7b556e (📝)
   return (
     <>
       <h1>06 회원가입 입력값 검증 (feat. react-hook-form)</h1>
@@ -63,12 +74,18 @@ function App() {
               value: 2,
               message: '2글자 이상 입력하세요.'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d7b556e (📝)
             },
             pattern: {
               value: /^[^\d]*$/, // 숫자는 포함할수 없음
               message: '숫자는 입력할 수 없습니다.'
+<<<<<<< HEAD
 =======
 >>>>>>> 324400f (🚧)
+=======
+>>>>>>> d7b556e (📝)
             }
           }) }
         /><br/>
