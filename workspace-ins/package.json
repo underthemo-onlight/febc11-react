@@ -11,13 +11,17 @@
   },
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "axios": "^1.7.7",
 =======
 >>>>>>> ea8cc6f (ins 폴더 재생성)
+=======
+>>>>>>> a3c8f1f (🚚)
     "immer": "^10.1.1",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "react-hook-form": "^7.53.2",
     "react-router-dom": "^6.28.0",
@@ -25,6 +29,9 @@
 =======
     "react-hook-form": "^7.53.2"
 >>>>>>> ea8cc6f (ins 폴더 재생성)
+=======
+    "react-hook-form": "^7.53.2"
+>>>>>>> a3c8f1f (🚚)
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
