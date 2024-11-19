@@ -1,4 +1,3 @@
-import { lazy } from "react";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 
 import Layout from "@components/Layout";

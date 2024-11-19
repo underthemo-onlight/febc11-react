@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // NavLink
 // React Router에서 제공하는 특별한 버전의 Link 컴포넌트
