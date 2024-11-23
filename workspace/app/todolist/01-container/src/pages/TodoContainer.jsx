@@ -2,6 +2,12 @@ import { useState } from "react";
 import { produce } from "immer";
 import Todo from "./Todo";
 
+// 상태 관리와 비즈니스 로직을 담당하는 컨테이너 컴포넌트
+// TodoContainer (상태 관리)
+//     └─> Todo (레이아웃)
+//         ├─> TodoInput (입력)
+//         └─> TodoList (목록)
+//             └─> TodoItem (개별 항목)
 export default function TodoContainer() {
   // 샘플 목록
   const [itemList, setItemList] = useState([

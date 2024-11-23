@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// 새로운 할일 입력을 담당하는 컴포넌트
 export default function TodoInput({ addItem }) {
   const [title, setTitle] = useState("");
   const [nextId, setNextId] = useState(4);

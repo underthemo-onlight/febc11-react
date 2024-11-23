@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 
+// 개별 할일 항목을 표시하는 컴포넌트
 export default function TodoItem({ item, toggleDone, deleteItem }) {
   return (
     <li>
