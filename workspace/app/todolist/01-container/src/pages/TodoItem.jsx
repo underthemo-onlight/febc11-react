@@ -1,6 +1,9 @@
 import PropTypes from "prop-types";
 
+<<<<<<< HEAD
 // 개별 할일 항목을 표시하는 컴포넌트
+=======
+>>>>>>> 53d42b6 (📝)
 export default function TodoItem({ item, toggleDone, deleteItem }) {
   return (
     <li>
