@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 import { lazy } from "react";
->>>>>>> a0a35b6 (Router, Lazy-Router)
 import { createBrowserRouter, Navigate } from "react-router-dom";
 
 import Layout from "@components/Layout";
