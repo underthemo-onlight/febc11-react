@@ -38,40 +38,16 @@
   <div id="root"></div>
 
   <script type="text/babel">
-<<<<<<< HEAD
-<<<<<<< HEAD
     document.querySelector('#filepath').textContent = `ch${document.URL.split('/ch')[1]}`;
-=======
-    document.querySelector('#filepath').textContent = `ch${document.URL.split('/ch')[1]}index.html`;
->>>>>>> e85950e (🚧)
-=======
-    document.querySelector('#filepath').textContent = `ch${document.URL.split('/ch')[1]}`;
->>>>>>> 7354f82 (🚧)
 
     // 1. 로그인 체크
     function App1() {
       var isLogin = true;
-<<<<<<< HEAD
-<<<<<<< HEAD
       var isLogin = false;
       
       return (
         <>
           { isLogin ? <h1>환영합니다.</h1> : <h1>로그인이 필요합니다.</h1> }
-=======
-      // var isLogin = false;
-      
-      return (
-        <>
-        
->>>>>>> e85950e (🚧)
-=======
-      var isLogin = false;
-      
-      return (
-        <>
-          { isLogin ? <h1>환영합니다.</h1> : <h1>로그인이 필요합니다.</h1> }
->>>>>>> 7354f82 (🚧)
         </>
       );
     }
@@ -79,27 +55,11 @@
     // 2. 목록 조회
     function App2() {
       var itemList = [{ _id: 1, title: '두부' }, { _id: 2, title: '계란' }, { _id: 3, title: '라면' }];
-<<<<<<< HEAD
-<<<<<<< HEAD
       var itemList = [];
 
       return (
         <>
           { itemList.length > 0 ? <ul>{ itemList.map(item => <li key={ item._id }>{ item.title }</li>) }</ul> : <p>장바구니가 비었습니다.</p> }
-=======
-      // var itemList = [];
-
-      return (
-        <>
-          
->>>>>>> e85950e (🚧)
-=======
-      var itemList = [];
-
-      return (
-        <>
-          { itemList.length > 0 ? <ul>{ itemList.map(item => <li key={ item._id }>{ item.title }</li>) }</ul> : <p>장바구니가 비었습니다.</p> }
->>>>>>> 7354f82 (🚧)
         </>
       );
     }
@@ -107,10 +67,6 @@
     // 3. 삼항 연산자 중첩
     function App3(){
       var status = 'online';
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 779f5e4 (✨)
       var status = 'away';
 
       // return (
@@ -138,7 +94,6 @@
         default:
           statusText = '오프라인 상태';
       }
-<<<<<<< HEAD
 
       return (
         <>
@@ -148,23 +103,6 @@
 
 
       
-=======
-      // var status = 'away';
-=======
->>>>>>> 779f5e4 (✨)
-
-      return (
-        <>
-          <h1>{ statusText }</h1>
-        </>
-      );
-<<<<<<< HEAD
->>>>>>> e85950e (🚧)
-=======
-
-
-      
->>>>>>> 779f5e4 (✨)
     }
 
     // 4. 조건부 클래스 적용
@@ -174,15 +112,7 @@
 
       return (
         <>
-<<<<<<< HEAD
-<<<<<<< HEAD
           <button className={ isActive ? 'active' : 'inactive' }>{ isActive ? '클릭' : '기다려' }</button>
-=======
-          
->>>>>>> e85950e (🚧)
-=======
-          <button className={ isActive ? 'active' : 'inactive' }>{ isActive ? '클릭' : '기다려' }</button>
->>>>>>> 779f5e4 (✨)
         </>
       );
     }
@@ -190,11 +120,8 @@
     // 5. 조건에 따라 요소를 생성하지 않기
     function App5(){
       var isShow = false;
-<<<<<<< HEAD
-<<<<<<< HEAD
       var isShow = true;
         
-<<<<<<< HEAD
       return (
         <>
           { isShow ? <p>이곳에 보여줌</p> : null }
@@ -206,29 +133,6 @@
       //     { isShow && <p>이곳에 보여줌</p> }
       //   </>
       // );
-=======
-      // var isShow = true;
-=======
-      var isShow = true;
->>>>>>> 779f5e4 (✨)
-
-=======
->>>>>>> 8ae19a8 (✨)
-      return (
-        <>
-          { isShow ? <p>이곳에 보여줌</p> : null }
-        </>
-      );
-<<<<<<< HEAD
->>>>>>> e85950e (🚧)
-=======
-
-      // return (
-      //   <>
-      //     { isShow && <p>이곳에 보여줌</p> }
-      //   </>
-      // );
->>>>>>> 8ae19a8 (✨)
     }
 
     function App(){

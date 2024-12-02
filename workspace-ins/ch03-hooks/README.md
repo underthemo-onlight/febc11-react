@@ -1,8 +1,4 @@
 # 3장 리액트 훅
-<<<<<<< HEAD
-=======
-- 소스 코드(GitHub): <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch03-hooks>
->>>>>>> ea8cc6f (ins 폴더 재생성)
 - 코드 실행(GitHub Page): <https://uzoolove.github.io/febc11-react/workspace-ins/index.html#03>
 
 ## 리액트 훅이란?
@@ -140,11 +136,6 @@ const ref = useRef(initialValue);
 #### 리턴값
 * `current`라는 상태값 또는 DOM 요소가 있는 속성 하나가 정의된 객체
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6c52e13 (ins 폴더 재생성)
 ### input 요소의 값 지정: useState vs. useRef
 #### useState 사용
 * value 속성으로 상태값 지정
@@ -192,13 +183,6 @@ function Counter() {
 }
 ```
 
-=======
->>>>>>> ea8cc6f (ins 폴더 재생성)
-<<<<<<< HEAD
-=======
->>>>>>> 17439cf (📝)
-=======
->>>>>>> 6c52e13 (ins 폴더 재생성)
 ## useMemo
 - 지정한 함수를 호출하여 반환받은 결과값을 내부에 저장(캐싱)하는 함수
 

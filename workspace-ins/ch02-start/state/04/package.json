@@ -10,14 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "immer": "^10.1.1",
-=======
->>>>>>> c1c920a (🚧)
-=======
-    "immer": "^10.1.1",
->>>>>>> 14a2b90 (✨)
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

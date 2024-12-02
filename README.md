@@ -4,7 +4,6 @@
 ## 수업 목차
 
 ### 1장 리액트 빌드업
-<<<<<<< HEAD
 * <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch01-buildup>
 
 ### 2장 리액트 시작하기
@@ -16,29 +15,13 @@
 ### 4장 클래스 컴포넌트와 컴포넌트의 라이프 사이클
 * <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch04-class>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 5장 리액트 라우터
-<<<<<<< HEAD
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-router>
-=======
-### 5장 고차 함수
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-highorder>
->>>>>>> ea8cc6f (ins 폴더 재생성)
-=======
-### 5장 고차 함수
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-highorder>
->>>>>>> 52c6f4e (📝)
-=======
 * <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch05-router>
->>>>>>> 6d58054 (📝)
 
 ### 6장 컨텍스트 API
 * <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch06-contextapi>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 7장 상태 관리 라이브러리
+### 7장 전역 상태 관리
 * <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch07-globalstate>
 
 ### 8장 리액트에서 CSS 사용
@@ -51,121 +34,10 @@
 * <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch10-nextjs>
 
 ### 11장 프로젝트 준비
-<<<<<<< HEAD
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch11-skeleton>
-=======
-=======
->>>>>>> 52c6f4e (📝)
-### 7장 리액트 라우터
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch07-router>
-
-### 8장 상태 관리 라이브러리
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch08-globalstate>
-
-### 9장 리액트에서 CSS 사용
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch09-css>
-
-### 10장 HTTP 통신과 Ajax
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch10-ajax>
-
-### 11장 백엔드 개발과 API 서버
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch11-api>
-
-### 12장 Next.js
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch12-nextjs>
-
-### 13장 프로젝트 준비
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch13-skeleton>
-<<<<<<< HEAD
->>>>>>> ea8cc6f (ins 폴더 재생성)
-=======
->>>>>>> 52c6f4e (📝)
-=======
 * <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/ch11-skeleton>
->>>>>>> 6d58054 (📝)
 
 ### Todo List App
 * <https://github.com/uzoolove/febc11-react/tree/main/workspace-ins/app/todolist>
-=======
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch01-buildup>
-
-### 2장 리액트 시작하기
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch02-start>
-
-### 3장 리액트 훅
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch03-hooks>
-
-### 4장 클래스 컴포넌트와 컴포넌트의 라이프 사이클
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch04-class>
-
-<<<<<<< HEAD
-### 5장 고차 함수
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-highorder>
-=======
-<<<<<<< HEAD
-### 5장 리액트 라우터
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-router>
-=======
-### 5장 고차 함수
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch05-highorder>
->>>>>>> ea8cc6f (ins 폴더 재생성)
->>>>>>> fefe0ca (ins 폴더 재생성)
-
-### 6장 컨텍스트 API
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch06-contextapi>
-
-<<<<<<< HEAD
-### 7장 리액트 라우터
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch07-router>
-=======
-<<<<<<< HEAD
-### 7장 상태 관리 라이브러리
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch07-globalstate>
->>>>>>> fefe0ca (ins 폴더 재생성)
-
-### 8장 상태 관리 라이브러리
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch08-globalstate>
-
-### 9장 리액트에서 CSS 사용
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch09-css>
-
-### 10장 HTTP 통신과 Ajax
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch10-ajax>
-
-<<<<<<< HEAD
-=======
-### 11장 프로젝트 준비
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch11-skeleton>
-=======
-### 7장 리액트 라우터
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch07-router>
-
-### 8장 상태 관리 라이브러리
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch08-globalstate>
-
-### 9장 리액트에서 CSS 사용
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch09-css>
-
-### 10장 HTTP 통신과 Ajax
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch10-ajax>
-
->>>>>>> fefe0ca (ins 폴더 재생성)
-### 11장 백엔드 개발과 API 서버
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch11-api>
-
-### 12장 Next.js
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch12-nextjs>
-
-### 13장 프로젝트 준비
-* <https://uzoolove.github.io/febc11-react/workspace-ins/ch13-skeleton>
-<<<<<<< HEAD
-=======
->>>>>>> ea8cc6f (ins 폴더 재생성)
->>>>>>> fefe0ca (ins 폴더 재생성)
-
-### Todo List App
-* <https://uzoolove.github.io/febc11-react/workspace-ins/app/todolist>
->>>>>>> ea8cc6f (ins 폴더 재생성)
 
 
 ## 수업 스케쥴(일정은 변동 가능)
@@ -279,12 +151,6 @@
   - <https://chromewebstore.google.com/search/react%20developer%20tools>
 * 설치하면 크롬 개발자 도구에 Components 탭이 추가됨
 
-#### Redux DevTools
-* 리덕스 애플리케이션의 상태 변경을 추적하고 상태와 액션 정보들을 시각화 할 수 있는 개발, 디버깅 도구
-* Chrome: 크롬 웹스토어에서 Redux DevTools로 검색 후 설치
-  - <https://chromewebstore.google.com/search/Redux%20DevTools>
-* 설치하면 크롬 개발자 도구에 Redux 탭이 추가됨
-
 ## 실습 준비
 ### Github 저장소 복사
 1. Github 저장소 fork
@@ -305,6 +171,11 @@ git remote add upstream https://github.com/uzoolove/febc11-react.git
   * 원본 저장소의 최신 변경사항을 가져와서 병합(upstream의 main 브랜치)
 ```sh
 git pull upstream main
+```
+  * 충돌 발생시 임시로 필요한 코드만 복사
+```sh
+cd febc11-react/sample
+npx degit https://github.com/uzoolove/febc11-react/sample/05 05 
 ```
 
 ### sample 폴더 복사

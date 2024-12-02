@@ -1,8 +1,10 @@
 import useAxiosInstance from "@hooks/useAxiosInstance";
 import useFetch from "@hooks/useFetch";
 import TodoListItem from "@pages/TodoListItem";
+import Pagination from "@components/Pagination";
 import { useEffect, useRef, useState } from "react";
 import { Link, Outlet, useSearchParams } from "react-router-dom";
+import "../Pagination.css";
 
 // const dummyData = {
 //   items: [{
@@ -25,7 +27,8 @@ function TodoList() {
 
   const params = {
     keyword: searchParams.get("keyword"),
-    // page: searchParams.get('page'),
+    page: searchParams.get("page") || 1,
+    limit: 20,
   };
 
   // useEffect(() => {
@@ -90,7 +93,10 @@ function TodoList() {
         <ul className="todolist">{itemList}</ul>
       </div>
 
-      <Outlet />
+      <Pagination
+        totalPages={data?.pagination.totalPages}
+        current={data?.pagination.page}
+      />
     </div>
   );
 }
